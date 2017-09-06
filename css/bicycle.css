@@ -1,0 +1,17 @@
+.intro {
+  position: relative;
+  margin-top: 15%;
+  font-size: 20px;
+}
+
+iframe {
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.flex-container {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
