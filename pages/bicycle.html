@@ -7,10 +7,11 @@
     <link rel="stylesheet" type="text/css" href="../css/bicycle.css"
 </head>
 <body>
-    <div id="navigationBar">
+  <div id="navigationBar">
 
-    </div>
-
+  </div>
+  <div id="empty"></div>
+  <div id="inside-body">
     <div class="intro">
       <p>
         introduction, bla bla bla...
@@ -22,5 +23,17 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/xQ_IQS3VKjA"
       frameborder="0" allowfullscreen></iframe>
     </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  $(function() {
+  if ($(window).width() / $(window).height() < 0.8) {
+    $('.flex-container').attr('class', 'flex-phone');
+  }
+});
+</script>
+
 </body>
 </html>

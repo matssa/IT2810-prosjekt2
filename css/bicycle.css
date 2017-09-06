@@ -1,7 +1,12 @@
+#empty {
+  height: 100px;
+}
+
 .intro {
+  size: 100%;
   position: relative;
-  margin-top: 15%;
   font-size: 20px;
+  background-color: rgba(250, 250, 250, 0.6);
 }
 
 iframe {
@@ -14,6 +19,15 @@ iframe {
   display: -webkit-flex;
   justify-content: center;
   -webkit-justify-content: center;
+  flex-direction: row;
+}
+
+.flex-phone {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: column;
 }
 
 body {
