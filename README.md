@@ -1,7 +1,7 @@
 # IT2810-prosjekt2
 
 Installer Express: https://expressjs.com/en/starter/installing.html
-Installering: https://nodejs.org/en/download/
+Installere node.js: https://nodejs.org/en/download/
 
 Nettsted for de takknemlige
 
