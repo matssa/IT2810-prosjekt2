@@ -1,0 +1,22 @@
+{
+  "name": "it2810-prosjekt2",
+  "version": "1.0.0",
+  "description": "Nettsted for de takknemlige",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matssa/IT2810-prosjekt2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matssa/IT2810-prosjekt2/issues"
+  },
+  "homepage": "https://github.com/matssa/IT2810-prosjekt2#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
