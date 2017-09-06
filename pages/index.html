@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Favourite Sport</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+
+    <script>
+        $(function(){
+            $("#navBar").load("common/navBar.html");
+        });
+    </script>
+
 </head>
 <body>
-    <div id="navigationBar">
+
+    <div id="navBar"></div>
+
+    <div id="content">
+        <div class="contentRow">
+            <div class="sport">
+                <img src="../resources/imagesIndex/mountainBike.jpg">
+            </div>
+            <div class="sport">
+                <img src="../resources/imagesIndex/football.jpg">
+            </div>
+        </div>
+        <div class="contentRow">
+            <div class="sport">
+                <img src="../resources/imagesIndex/kite.jpg">
+            </div>
+            <div class="sport">
+                <img src="../resources/imagesIndex/diving.jpg">
+            </div>
+        </div>
     </div>
+
+
 
 </body>
 </html>
