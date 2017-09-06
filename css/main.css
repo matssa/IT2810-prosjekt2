@@ -1,0 +1,10 @@
+#navigationBar {
+    background-color: #5a5a5a;
+    width:100%;
+    height:100px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    list-style-type: none;
+}
