@@ -15,3 +15,8 @@ iframe {
   justify-content: center;
   -webkit-justify-content: center;
 }
+
+body {
+  background-position: center;
+  background-image: url('../resources/bicycke-images/bicycle.jpg');
+}
