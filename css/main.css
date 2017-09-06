@@ -6,7 +6,7 @@ a {
 .insideMenuLogo{
     background-color: #FFFFFF;
     border-radius: 30%;
-    height: 7px;
+    height: 5px;
     width: 30px;
     margin: 5px;
     z-index: 2;
@@ -34,7 +34,7 @@ a {
 }
 
 #menu {
-    margin: 20px;
+    margin: 30px;
     margin-right: 40px;
     cursor: pointer;
 }

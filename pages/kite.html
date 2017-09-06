@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kite surfing</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/kite.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+
+    <script>
+        $(function(){
+            $("#navBar").load("common/navBar.html");
+        });
+    </script>
+
+</head>
+<body>
+    <div id="navBar"></div>
+
+    <div id="content">
+        <div id="votingContainer">
+            <div >
+                <button type="button" onclick="">Up</button>
+            </div>
+            <div id="counter">
+                <p class="counterText">votes:</p>
+                <p class="counterText">0</p>
+
+            </div>
+            <div >
+                <button type="button" onclick="">Down</button>
+            </div>
+        </div>
+        <div id="videoContainer">
+            <iframe
+                    id="video"
+                    src="https://www.youtube.com/embed/MZcWd-9wx40?autoplay=1&showinfo=0&controls=0&mute=1&loop=1&playlist=MZcWd-9wx40"
+                    frameborder="0"
+            >
+            </iframe>
+        </div>
+
+        <div id="rightSide">
+        </div>
+    </div>
+
+</body>
+</html>
