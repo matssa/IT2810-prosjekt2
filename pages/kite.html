@@ -21,13 +21,30 @@
     <div id="navBar"></div>
 
     <div id="content">
-        <iframe
-                id="video"
-                src="https://www.youtube.com/embed/MZcWd-9wx40?autoplay=1&showinfo=0&controls=0&mute=1"
-                frameborder="0"
-        >
+        <div id="votingContainer">
+            <div >
+                <button type="button" onclick="">Up</button>
+            </div>
+            <div id="counter">
+                <p class="counterText">votes:</p>
+                <p class="counterText">0</p>
 
-        </iframe>
+            </div>
+            <div >
+                <button type="button" onclick="">Down</button>
+            </div>
+        </div>
+        <div id="videoContainer">
+            <iframe
+                    id="video"
+                    src="https://www.youtube.com/embed/MZcWd-9wx40?autoplay=1&showinfo=0&controls=0&mute=1&loop=1&playlist=MZcWd-9wx40"
+                    frameborder="0"
+            >
+            </iframe>
+        </div>
+
+        <div id="rightSide">
+        </div>
     </div>
 
 </body>
