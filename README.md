@@ -1,5 +1,8 @@
 # IT2810-prosjekt2
 
+Installer Express: https://expressjs.com/en/starter/installing.html
+Installering: https://nodejs.org/en/download/
+
 Nettsted for de takknemlige
 
 Denne oppgaven er en gruppeoppgave, men du/dere kan starte med oppgaven selv om det tar tid å få organisert grupper, satt opp virtuelle maskiner og ordnet git-repositoires etc.
